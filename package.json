@@ -1,9 +1,12 @@
 {
-  "name": "esh-task-manager",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "esh-test-app",
+  "version": "0.1.0-alpha",
+  "description": "Ember-shell Application. Just for testing purposes",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-shell",
+    "ember-engines",
+    "ember-shell-app"
   ],
   "license": "MIT",
   "author": "",
@@ -18,7 +21,8 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^5.1.7"
+    "ember-cli-babel": "^5.1.7",
+    "ember-cli-htmlbars": "^1.1.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -41,8 +45,11 @@
     "ember-load-initializers": "^0.6.0",
     "ember-resolver": "^2.0.3",
     "ember-source": "^2.11.0-beta.2",
-    "ember-welcome-page": "^2.0.2",
     "loader.js": "^4.0.10"
+  },
+  "peerDependency": {
+    "ember-shell": "^0.2.0-alpha",
+    "ember-engines": "0.4.0",
   },
   "engines": {
     "node": ">= 0.12.0"

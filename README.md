@@ -1,11 +1,11 @@
-# esh-task-manager
+# esh-test-app
 
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd esh-task-manager`
+* `cd esh-test-app`
 * `npm install`
 * `bower install`
 
