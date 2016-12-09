@@ -49,7 +49,7 @@
   },
   "peerDependency": {
     "ember-shell": "^0.2.0-alpha",
-    "ember-engines": "0.4.0",
+    "ember-engines": "0.4.0"
   },
   "engines": {
     "node": ">= 0.12.0"
