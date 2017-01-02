@@ -1,6 +1,6 @@
 {
   "name": "esh-test-app",
-  "version": "0.4.0-alpha",
+  "version": "0.4.1-alpha",
   "description": "Ember-shell Application. Just for testing purposes",
   "keywords": [
     "ember-addon",

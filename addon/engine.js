@@ -8,8 +8,11 @@ const { modulePrefix } = config;
 const Eng = Engine.extend({
   modulePrefix,
   Resolver,
+
   title: "Ember-Shell Test Application",
   icon: 'engines-dist/esh-test-app/icon.svg',
+  multipleInstances: true,
+
 });
 
 loadInitializers(Eng, modulePrefix);
